@@ -1,0 +1,30 @@
+footer {
+  height: 21.25rem;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr;
+}
+
+footer h1 {
+  font-size: 0.9375rem;
+  margin-bottom: 0.8rem;
+}
+
+.team {
+  display: flex;
+  gap: 3rem;
+}
+
+.team img {
+  width: 1.9375rem;
+  height: 1.9375rem;
+}
+
+.team p {
+  font-size: 0.75rem;
+}
+
+.team-individual {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

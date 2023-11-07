@@ -26,6 +26,10 @@ ul {
   list-style-type: none;
 }
 
+.links {
+  color: var(--color-blush-pink);
+  text-decoration: none;
+}
 
 /* Need to think of how the link should appear when clicked  */
 .links.active {
