@@ -26,57 +26,57 @@ const Footer = () => {
           <div className='team-container'>
             <div className='team-individual'>
               <img src={AnnieTu} alt='Annie Tu' />
-              <p>Annie Tu</p>
+              <a href='https://www.linkedin.com/in/annnie-tu/'>Annie Tu</a>
             </div>
 
             <div className='team-individual'>
               <img src={BriannaPak} alt='BriannaPak' />
-              <p>Brianna Pak</p>
+              <a href='https://www.linkedin.com/in/briannapak/'>Brianna Pak</a>
             </div>
 
             <div className='team-individual'>
               <img src={DaphneHe} alt='DaphneHe' />
-              <p>Daphne He</p>
+              <a href='https://www.linkedin.com/in/daphnehe/'>Daphne He</a>
             </div>
 
             <div className='team-individual'>
               <img src={HannahYi} alt='Hannah Yi' />
-              <p>Hannah Yi</p>
+              <a href='https://www.linkedin.com/in/hannah-yi-seattle/'>Hannah Yi</a>
             </div>
 
             <div className='team-individual'>
               <img src={KaylaTounalom} alt='Kayla Tounalom' />
-              <p>Kayla Tounalom</p>
+              <a href='https://www.linkedin.com/in/kayla-tounalom/'>Kayla Tounalom</a>
             </div>
 
             <div className='team-individual'>
               <img src={KellyWang} alt='Kelly Wang' />
-              <p>Kelly Wang</p>
+              <a href='https://www.linkedin.com/in/ikellywang/'>Kelly Wang</a>
             </div>
 
             <div className='team-individual'>
               <img src={LucyLin} alt='Lucy Lin' />
-              <p>Lucy Lin</p>
+              <a href='https://www.linkedin.com/in/lucy-lin-seattle/'>Lucy Lin</a>
             </div>
 
             <div className='team-individual'>
               <img src={RoshniSrikanth} alt='Roshni Srikanth' />
-              <p>Roshni Srikanth</p>
+              <a href='https://www.linkedin.com/in/roshni-srikanth/'>Roshni Srikanth</a>
             </div>
 
             <div className='team-individual'>
               <img src={SloaneShea} alt='Sloane Shea' />
-              <p>Sloane Shea</p>
+              <a href='https://www.linkedin.com/in/sloaneshea/'>Sloane Shea</a>
             </div>
 
             <div className='team-individual'>
               <img src={MiaPham} alt='MiaPham' />
-              <p>Mia Pham</p>
+              <a href='https://www.linkedin.com/in/ph-miapham/'>Mia Pham</a>
             </div>
 
             <div className='team-individual'>
               <img src={PournamiVarma} alt='Pournami Varma' />
-              <p>Pournami Varma</p>
+              <a href='https://www.linkedin.com/in/pournamivarma/'>Pournami Varma</a>
             </div>
           </div>
         </div>
