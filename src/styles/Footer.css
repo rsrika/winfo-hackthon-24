@@ -1,4 +1,4 @@
-footer {
+.footer-container {
   height: 21.25rem;
   display: grid;
   grid-template-columns: 1fr 0.5fr 0.5fr;
@@ -6,11 +6,12 @@ footer {
 
 footer h1 {
   font-size: 0.9375rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
 }
 
-.team {
+.team-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 3rem;
 }
 
@@ -23,8 +24,38 @@ footer h1 {
   font-size: 0.75rem;
 }
 
+.social-media {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.94rem;
+}
+
+.social-media img {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.7rem;
+}
+
+.social-media:nth-of-type(3) img{
+  width: 1.2rem;
+  height: 0.88694rem;
+}
+
+.social-media a {
+  font-size: 0.75rem;
+}
+
+
 .team-individual {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  width: 9.6875rem;
+}
+
+.winfo-logo {
+  margin: auto;
+  width: 4.125rem;
+  height: 1.25rem;
+  margin-bottom: 1.56rem;
 }
