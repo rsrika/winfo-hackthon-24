@@ -5,7 +5,7 @@ const FAQ = () => {
   return (
     <>
       <marquee direction="right" scrolldelay="100">
-        UW WINFO 12th Annual Hackathon – Frequently Asked Questions
+        Welcome to UW WINFO 12th Annual Hackathon – Frequently Asked Questions
       </marquee>
       <h1>FAQs</h1>
       <div className="two-columns">

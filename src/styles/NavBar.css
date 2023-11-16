@@ -33,6 +33,9 @@ ul {
 
 /* Need to think of how the link should appear when clicked  */
 .links.active {
-  color: var(--color-blush-pink);
-  text-decoration: none;
+  border-bottom: 0.25rem solid var(--color-blush-pink);
+  /* color: var(--color-white);
+  background-color: var(--color-light-pink);
+  border-radius: 0.7rem;
+  padding: 0.2rem */
 }

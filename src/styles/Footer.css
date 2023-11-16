@@ -42,15 +42,27 @@ footer h1 {
 }
 
 .social-media a {
-  font-size: 0.75rem;
+  font-size: 0.87rem;
 }
 
+.social-media a:hover {
+  color: var(--color-yellow);
+}
 
 .team-individual {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   width: 9.6875rem;
+}
+
+.important-links div {
+  margin-top: 0;
+}
+
+.important-links ul {
+  display: flex;
+  flex-direction: column;
 }
 
 .winfo-logo {

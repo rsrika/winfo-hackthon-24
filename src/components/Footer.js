@@ -106,7 +106,15 @@ const Footer = () => {
 
         <div className='important-links'>
           <h1>Important Links</h1>
-
+          <div className='social-media'>
+            <a href='https://docs.google.com/spreadsheets/d/1diZua_3eu3zUwGHcwTutxORi5dskz7IZcVvCy0Y8MaQ/edit?usp=sharing'>Team Formation</a>
+          </div>
+          <div className='social-media'>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLSe8xcGPLcd3TBZ6vl-eCe-YDU5WRSMu1eRkPhF3F7yBsrIg2A/viewform?usp=sf_link'>Resume Submission</a>
+          </div>
+          <div className='social-media'>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLSfLbZpo4lAO2U6f_7bCT3KlpzGcx2MX_o3g_sz2YQIRDXiVZA/viewform?usp=sf_link'>Project Submission</a>
+          </div>
         </div>
       </div>
       <img className="winfo-logo" src={WINFOLogoDark} alt='WINFOLogoDark' />
