@@ -10,10 +10,14 @@ const NavBar = () => {
         src={WINFOLogoDark}
         alt='WINFO letter with gradient color pink to purple from left to right.'
       />
-      <ul>
+      <ul className='nav-bar-links'>
         <li>About Us</li>
         <li>Hackathon Day</li>
-        <li>Prize Tracks</li>
+        <li>
+          <NavLink to='/prizetracks' className="links">
+            Prize Tracks
+          </NavLink>
+        </li>
         <li>The People</li>
         <li>
           <NavLink to='/faqs' className="links">

@@ -21,3 +21,7 @@
   text-decoration: none;
   color: var(--color-yellow);
 }
+
+.marquee p {
+  color: var(--color-yellow);
+}

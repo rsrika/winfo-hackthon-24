@@ -17,7 +17,7 @@ nav > img {
   height: 1.9375rem;
 }
 
-ul {
+.nav-bar-links {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -31,11 +31,6 @@ ul {
   text-decoration: none;
 }
 
-/* Need to think of how the link should appear when clicked  */
 .links.active {
   border-bottom: 0.25rem solid var(--color-blush-pink);
-  /* color: var(--color-white);
-  background-color: var(--color-light-pink);
-  border-radius: 0.7rem;
-  padding: 0.2rem */
 }
