@@ -63,7 +63,7 @@ h6 {
   background-color: var(--color-background);
 }
 
-body {
+nav, footer, section {
   padding-right: 6.25rem;
   padding-left: 6.25rem;
 }

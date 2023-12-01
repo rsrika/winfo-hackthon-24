@@ -11,8 +11,14 @@ const NavBar = () => {
         alt='WINFO letter with gradient color pink to purple from left to right.'
       />
       <ul className='nav-bar-links'>
-        <li>About Us</li>
-        <li>Hackathon Day</li>
+        <li>
+          About Us
+        </li>
+        <li>
+          <NavLink to='/' className="links">
+            Hackathon Day
+          </NavLink>
+        </li>
         <li>
           <NavLink to='/prizetracks' className="links">
             Prize Tracks
