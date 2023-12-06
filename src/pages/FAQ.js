@@ -4,8 +4,8 @@ import '../styles/FAQ.css'
 const FAQ = () => {
   return (
     <>
-      <h1>FAQs</h1>
-      <div className="two-columns">
+      <h1 className='faq-header'>FAQs</h1>
+      <section className="two-columns">
         <div className='column'>
           <div className='faq-text'>
             <p className='faq-question'>Q: When and where will the Hackathon will take place?</p>
@@ -56,7 +56,7 @@ const FAQ = () => {
             <p>A: Lunch and dinner will be provided. There will be several food options available, so do not worry if you have dietary restrictions available.</p>
           </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }

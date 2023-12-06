@@ -8,20 +8,22 @@ import Instax from "../assets/Instax.png"
 const PrizeTracks = () => {
   return (
     <>
-      <h1>Prize Tracks</h1>
-      <p>
-        There are four separate tracks with their appropriate prizes. Projects will be evaluated on the following categories along with specific criteria for each track:
-      </p>
-      <ul id='prize-tracks'>
-        <li>Design/Design process</li>
-        <li>Code quality</li>
-        <li>Pitch and demo</li>
-        <li>Impactfulness</li>
-        <li>Team takeaways</li>
-      </ul>
+      <section className='prize-tracks'>
+        <h1>Prize Tracks</h1>
+        <p>
+          There are four separate tracks with their appropriate prizes. Projects will be evaluated on the following categories along with specific criteria for each track:
+        </p>
+        <ul id='prize-tracks'>
+          <li>Design/Design process</li>
+          <li>Code quality</li>
+          <li>Pitch and demo</li>
+          <li>Impactfulness</li>
+          <li>Team takeaways</li>
+        </ul>
+      </section>
 
       {/* 4 Categories */}
-      <div>
+      <section>
         {/* Best Overall */}
         <div>
           <h2>Best Overall</h2>
@@ -97,9 +99,9 @@ const PrizeTracks = () => {
           </div>
         </div>
 
-        {/* Best AI/Software */}
+        {/* Best Coding Design*/}
         <div>
-          <h2>Best AI/Software</h2>
+          <h2>Best Coding Design</h2>
           <p>
             This team excels in software and/or AI development, showing exceptional coding skills and innovative thinking. With their groundbreaking solution, they stand out as trailblazers in the filed,
           </p>
@@ -120,7 +122,7 @@ const PrizeTracks = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }
