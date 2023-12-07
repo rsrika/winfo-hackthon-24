@@ -109,8 +109,9 @@ const PrizeTracks = () => {
             <div>
               <h3>Focus on:</h3>
               <ul>
+                <li>Code readability</li>
                 <li>Documentation</li>
-                <li>Consistent coding style</li>
+                <li>Code redundancy</li>
               </ul>
             </div>
             <div className='prize-tracks-best-software'>

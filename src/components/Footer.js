@@ -1,9 +1,9 @@
 import React from 'react'
 import "../styles/Footer.css"
 import AnnieTu from '../assets/headshots/AnnieTu.png'
-import HannahYi from "../assets/headshots/HannahYi.png"
 import BriannaPak from '../assets/headshots/BriannaPak.png'
 import DaphneHe from '../assets/headshots/DaphneHe.png'
+import HannahYi from "../assets/headshots/HannahYi.png"
 import KaylaTounalom from '../assets/headshots/KaylaTounalom.png'
 import KellyWang from '../assets/headshots/KellyWang.png'
 import LucyLin from '../assets/headshots/LucyLin.png'

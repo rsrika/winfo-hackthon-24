@@ -24,7 +24,11 @@ const NavBar = () => {
             Prize Tracks
           </NavLink>
         </li>
-        <li>The People</li>
+        <li>
+          <NavLink to='/thepeople' className="links">
+            The People
+          </NavLink>
+        </li>
         <li>
           <NavLink to='/faqs' className="links">
             FAQs
