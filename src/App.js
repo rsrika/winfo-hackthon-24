@@ -11,11 +11,10 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route index element={<HackathonDay />}/>
+        <Route path="/" element={<HackathonDay />}/>
         <Route path="/prizetracks" element={<PrizeTracks />} />
         <Route path="/thepeople" element={<People />} />
         <Route path="/faqs" element={<FAQ />} />
-        {/* <Route path="*" element={<Navigate to="/"/>} /> */}
       </Routes>
       <Footer />
     </>
