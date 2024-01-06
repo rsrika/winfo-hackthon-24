@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import NavBar from "./components/NavBar";
 import Footer from './components/Footer';
 import HackathonDay from './pages/HackathonDay';
@@ -11,10 +11,11 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path="/" element={<HackathonDay />} />
+        <Route index element={<HackathonDay />}/>
         <Route path="/prizetracks" element={<PrizeTracks />} />
         <Route path="/thepeople" element={<People />} />
         <Route path="/faqs" element={<FAQ />} />
+        {/* <Route path="*" element={<Navigate to="/"/>} /> */}
       </Routes>
       <Footer />
     </>
