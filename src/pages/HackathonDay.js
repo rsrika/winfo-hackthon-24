@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useRef} from 'react'
 import '../styles/HackathonDay.css'
 import FinalLogo from "../assets/FinalLogo.png"
 import Sticker from "../assets/Sticker.png"
