@@ -12,7 +12,9 @@ const NavBar = () => {
       />
       <ul className='nav-bar-links'>
         <li>
-          About Us
+          <a href='https://website-winfos-projects.vercel.app/' className="links">
+            About
+          </a>
         </li>
         <li>
           <NavLink to='/' className="links">
