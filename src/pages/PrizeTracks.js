@@ -1,9 +1,11 @@
 import React from 'react'
 import "../styles/PrizeTracks.css"
 import Nintendo from "../assets/Nintendo.png"
-import Bose from "../assets/Bose.png"
+import Bose from "../assets/Bose-Speaker.png"
 import Projector from "../assets/Projector.png"
 import Instax from "../assets/Instax.png"
+import Sony from "../assets/Sony-Headphones.png"
+
 
 const PrizeTracks = () => {
   return (
@@ -65,10 +67,10 @@ const PrizeTracks = () => {
               </ul>
             </div>
             <div className='prize-tracks-best-impact'>
-              <h3>Prize: <span>Bose Micro Bluetooth Speaker</span></h3>
+              <h3>Prize: <span>Bose Soundlink Flex Bluetooth Speaker</span></h3>
               <img
                 src={Bose}
-                alt='White Bose Micro Bluetooth Speaker'
+                alt='Red Bose Soundlink Flex Bluetooth Speaker'
               />
             </div>
           </div>
@@ -115,10 +117,10 @@ const PrizeTracks = () => {
               </ul>
             </div>
             <div className='prize-tracks-best-software'>
-              <h3>Prize: <span>Projector</span></h3>
+              <h3>Prize: <span>Sony Noise Cancelling Headphones</span></h3>
               <img
-                src={Instax}
-                alt='White Fujifilm Instax Mini'
+                src={Sony}
+                alt='White Sony Noise Cancelling Headphones'
               />
             </div>
           </div>
